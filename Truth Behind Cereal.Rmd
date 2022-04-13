@@ -1,0 +1,58 @@
+---
+title: "The Truth Behind Cereal"
+author: "Dylan Montenegro"
+date: "4/7/2022"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Introduction
+For the cereal enthusiasts ###whether that be a kid or an adult/parent,### this project is going to uncover the nutritional soundness of 75 different cereals. 
+
+# Packages Required
+```{r}
+library(tidyr)
+library(rmarkdown)
+library(ggplot2) #used for data visualization
+library(dplyr) #used for data manipulation
+library(shiny)
+library(tidyverse)
+library(plotly)
+```
+
+# Import Data and Preparation
+## Source of the data
+1) 80 Cereals https://www.kaggle.com/datasets/crawford/80-cereals I sourced this data from the public Kaggle datasets. It was collected by Chris Crawford who sourced it from a TELECOM ParisTech personal website.
+```{r}
+cereal <- read_csv("~/Desktop/Data2401/cereal.csv")
+```
+**Variable Names and meaning: Name- name of cereal, Mfr- manufacturer of cereal: A = American Home Food Products, G = General Mills, K = Kellogg's, N = Nabisco, P = Post, Q = Quaker Oats, & R = Ralston Purina, Type- cold or hot, Calories- number of calories per serving, Protein- grams of protein, Fat- grams of fat, Sodium- milligrams of sodium, Fiber- grams of dietary fiber, Carbo- grams of complex carbohydrates, Sugars- grams of sugar, Potass- milligrams of potassium, Vitamins- vitamins and minerals: 0, 25, or 100, indicating the typical percentage of FDA recommended, Shelf- display shelf, Weight- weight in ounces of one serving, Cups- number of cups in one serving, and Rating- a rating of the cereals**
+
+2)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
